@@ -1,0 +1,286 @@
+/* CSS Reset  */
+*{
+    padding: 0;
+    margin: 0;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+}
+.items a{
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+}
+.items a:hover{
+    color: blue;
+}
+.items{
+    position: relative;
+    list-style: none;
+    padding: 19px;
+    margin-left: 14px;
+    top: 5px;
+}
+ul{
+    display: flex;
+    position: absolute;
+    left: 51.8vw;
+    margin-right: 0px;
+    top: 0px;
+    font-size: medium;
+    height: 70px;
+    width: 911px;
+}
+.active1{
+    position: absolute;
+    right: 187px;
+    width: 150px;
+    height: 35px;
+    top: 18px;
+    border-radius: 18px;
+    padding: 0%;
+    margin: 0%;
+    border: 2px solid white;
+    font-size: large;
+    background-color: red;
+    color: white;
+}
+
+.active2{
+    position: absolute;
+    right: 25px;
+    width: 150px;
+    height: 35px;
+    top: 18px;
+    border-radius: 18px;
+    padding: 0;
+    margin: 0%;
+    border: 4px solid rgb(71, 206, 230);
+    background-color: white;
+    font-size: large; 
+}
+.active1,.active2:hover{
+    cursor: pointer;
+}
+.active1:hover{
+    background-color: rgb(241, 67, 67);
+}
+.active2:hover{
+    background-color: rgb(128, 128, 128);
+    color: white;
+}
+.divbg2 ul{
+    background-color: #b6b2a1;
+    border-radius: 0px 0px 0px 20px;
+}
+body{
+    background-image: url("./assets/images/nonveg2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 80vh;
+    height: 100vh;
+    width: 100vh;
+    overflow: auto;
+}
+.text{
+    background-color: rgb(255, 115, 0);
+    display: inline-block;
+    position: absolute;
+    top: 65.2vh;
+    height: 134px;
+    width: 100%;
+    border-radius: 0px 0px 0px 0px;
+}
+.text1{
+    color: white;
+    padding: 5px;
+    display: inline-block;
+    position: absolute;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    margin-left: 270px;
+}
+.logos{
+    margin-left: 64vw;
+    margin-top: 15px;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#idlogo{
+    position: relative;
+    padding: 0%;
+    margin: 7px;
+    margin-top: 15px;
+}
+.dishes{
+    position: absolute;
+    top: 82vh;
+    left: 42vw;
+    font-size: 40px;
+}
+.images1{
+    display: inline-block;
+    position: absolute;
+    top: 88.5vh;
+    left: 1vw;
+    border: 4px solid red;
+    border-radius: 15px;
+}
+.images1 h1{
+    text-align: center;
+}
+.images2{
+    display: inline-block;
+    position: absolute;
+    top: 88.5vh;
+    left: 27vw;
+    border: 4px solid red;
+    border-radius: 15px;
+}
+.images2 h1{
+    text-align: center;
+}
+
+.images3{
+    display: inline-block;
+    position: absolute;
+    top: 88.5vh;
+    left: 51.5vw;
+    border: 4px solid red;
+    border-radius: 15px;
+}
+.images3 h1{
+    text-align: center;
+}
+
+.images4{
+    display: inline-block;
+    position: absolute;
+    top: 88.5vh;
+    left: 75.5vw;
+    border: 4px solid red;
+    border-radius: 15px;
+}
+.images4 h1{
+    text-align: center;
+}
+.brands h2{
+    position: absolute;
+    top: 1160px;
+    left: 45vw;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.brands img{
+    position: relative;
+    top: 1010px;
+    left: 35vw;
+    padding: 10px;
+}
+.contact {
+    width: 99.4vw;
+    height: 800px;
+    background-image: url("./assets/images/web_home_poster_3.jpg");
+    position: absolute;
+    top: 1400px;
+    background-size: 100vw;
+    background-repeat: no-repeat;
+}
+.contact h3{
+    display: block;
+    position: absolute;
+    width: 500px;
+    height: 30px;
+    margin: 30px;
+    right: 5px;
+    font-size: 50px;
+    color: white;
+}
+.contact input{
+    display: block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+    top: 100px;
+    width: 500px;
+    height: 40px;
+    margin: 25px;
+    position: relative;
+    left: 1200px;
+    background-color: #f0efe9;
+    border-radius: 10px;
+    padding: 5px;
+    border: 0px;
+}
+textarea{
+    display: block;
+    position: absolute;
+    right: 9vw;
+    top: 350px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+    padding: 7px;
+    background-color: #f0efe9;
+    border-radius: 15px;
+}
+.contact button{
+    display: block;
+    position: absolute;
+    right: 150px;
+    top: 680px;
+    width: 400px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+    padding: 7px;
+    border-radius: 15px;
+    border: 0px;
+    background-color: rgb(255, 136, 0);
+}
+.myaddress{
+    background-color: rgb(240, 240, 50);
+    position: absolute;
+    top: 1800px;
+    width: 340px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+    padding: 20px;
+    line-height: 40px;
+    height: 360px;
+    border-radius: 0px 30px 0px 0px;
+}
+div .book {
+    text-decoration: none;
+}
+.app {
+    display: block;
+    position: absolute;
+    top: 1400px;
+    font-size: 25px;
+    border-radius: 0px 0px 15px 0px;
+    padding: 8px;
+    background-color: aquamarine;
+}
+.app p {
+    line-height: 40px;
+}
+.food2 {
+    display: inline;
+    position: absolute;
+    right: 2px;
+}
+
+.img1{
+    display: inline;
+    position: absolute;
+    width: 100vw;
+    height: 80vh;
+    overflow: auto;
+}
+#endbtn{
+    right: 10vw;
+}
+#endbtn:hover{
+    cursor: pointer;
+}
+html{
+    scroll-behavior: smooth;
+}
